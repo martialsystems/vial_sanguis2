@@ -85,7 +85,8 @@ def test_held_biter_resets_on_gap() -> None:
 
 def test_f_snapshots() -> None:
     cfg = RunConfig()
-    recs = [_row(t, F=0.1 * (t / 2500)) for t in (0, 1500, 2500)]
+    recs = [_row(t, F=0.1 * (t / 10000)) for t in (0, 1500, 2500, 10000)]
     times = first_times(recs, cfg)
     assert times["F_1500"] == recs[1]["F"]
     assert times["F_2500"] == recs[2]["F"]
+    assert times["F_10000"] == recs[3]["F"]

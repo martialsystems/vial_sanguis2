@@ -14,7 +14,10 @@ Question: under an explicit diet ladder and an allowed population crash, does a 
 
 Do not pin GraphForge. Do not reuse vialforge. VBD is the finish gate.
 Do not raise bite_weight after a cliff. Do not average a living biter seed with an extinct seed.
-Do not call F=1 a bug. Do not open a 10k arm unless held biters and F@1500 < 0.9 on at least 2 seeds.
+Do not call F=1 a bug. Origin vampire checklist failed as a 3-seed claim. Do not average seed 3 with seeds 1 and 2.
+Origin 3-seed 10k stays closed. Seed-3 persistence 10k finished: F@10k=0.228, cap arm, exudate still the meal. Not a vampire pass.
+Do not tighten fallback so seed 1 counts as cap-on. Do not raise bite_weight so bite catches sweat.
+LONG_ARM.md state is halt. Next legal node is none.
 
 Frozen diet: t_starve=5, k_tears=40, bite_weight=1.0, c_pierce=0.05,
 c_digest=0.40, c_heme=0.40, c_heme_in=0.30, beta_heme=2.0,

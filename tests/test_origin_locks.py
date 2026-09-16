@@ -56,6 +56,9 @@ def test_knn_origin_order_if_present() -> None:
     assert float(last3["mean_energy_wound"]) + float(last3["mean_energy_sweat"]) > float(
         last3["mean_energy_bite"]
     )
+    readme = (REPO / "README.md").read_text(encoding="utf-8")
+    assert "fallback-dominated" in readme
+    assert "Vampire checklist failed as a 3-seed claim." in readme
 
 
 def test_random_origin_if_present() -> None:

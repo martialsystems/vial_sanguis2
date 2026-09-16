@@ -74,6 +74,7 @@ def main(argv: list[str] | None = None) -> int:
         f"t={last['t']} n={last['n']} F={last['F']:.4f} p_biter={last['p_biter']:.3f} "
         f"min_n={result['min_n']} t_held={result['t_held_biter']} "
         f"F1500={result.get('F_1500')} F2500={result.get('F_2500')} "
+        f"F10000={result.get('F_10000')} "
         f"fallback_gens={result.get('n_cap_fallback_gens')} extinct={result['extinct']}"
     )
     return 0

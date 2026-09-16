@@ -138,6 +138,7 @@ def first_times(records: list[dict], cfg: RunConfig) -> dict:
             t_heme_safe_rise = t
     f1500 = next((float(r["F"]) for r in records if int(r["t"]) == 1500), None)
     f2500 = next((float(r["F"]) for r in records if int(r["t"]) == 2500), None)
+    f10000 = next((float(r["F"]) for r in records if int(r["t"]) == 10000), None)
     return {
         "t_crash": t_crash,
         "t_min_n": t_min_n,
@@ -151,4 +152,5 @@ def first_times(records: list[dict], cfg: RunConfig) -> dict:
         "t_heme_safe_rise_mean": t_heme_safe_rise_mean,
         "F_1500": f1500,
         "F_2500": f2500,
+        "F_10000": f10000,
     }

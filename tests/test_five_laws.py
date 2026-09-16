@@ -177,5 +177,9 @@ def test_no_graphforge() -> None:
     assert "Unfreezing a diet knob is a halt." in long_arm
     assert "origin" in long_arm
     assert "Do not raise bite_weight" in long_arm
+    assert "Vampire checklist failed as a 3-seed claim." in long_arm
+    assert "fallback-dominated" in long_arm
     assert "state: halt" in long_arm
     assert "next legal node: none" in long_arm
+    assert "F@10k=0.228" in long_arm
+    assert "Do not patch vial_sanguis" in long_arm

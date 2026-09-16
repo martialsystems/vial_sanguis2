@@ -25,9 +25,18 @@ def test_readme() -> None:
     assert "extinct t=11" in text
     assert "t_held_biter" in text
     assert "0.228" in text
-    assert "10k closed" in text
-    assert "1 of 3" in text
+    assert "fallback-dominated" in text
+    assert "Vampire checklist failed as a 3-seed claim." in text
+    assert "one held kit off F=1" in text
+    assert "Do not average seed 3" in text
+    assert "Origin 10k stays closed" in text
+    assert "Bridge-ramp stays closed" in text
     assert "Do not raise" in text
+    assert "knn_delayed_10000_s3.json" in text
+    assert "not a vampire-checklist pass" in text
+    assert "F@10k=0.228" in text
+    assert "Exudate stayed the meal" in text
+    assert "Pierce -0.150" in text
     agents = (REPO / "AGENTS.md").read_text(encoding="utf-8")
     assert "—" not in agents
     assert "Do not pin GraphForge" in agents
