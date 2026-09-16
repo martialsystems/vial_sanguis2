@@ -9,18 +9,11 @@ Unfreezing a diet knob is a halt.
 state: halt
 next legal node: none
 
-Origin 2500 finished. Vampire checklist failed as a 3-seed claim. Do not average seed 3
-with the other two. Origin 10k stays closed. Bridge-ramp stays closed.
+The finding is the README lead. Science lock `4946ab5`. That is the end of
+vial_sanguis2. No ramp. No 10k flies. No bite_weight change.
 
-Seed-3 persistence 10k finished. Same frozen origin knobs. Cap arm (fallback gens=1).
-F@10k=0.228. Last p_biter=0.066. Sweat 4.591 and wound 3.410 beat bite 0.013.
-Pierce went negative. Saliva still negative. Rasp still at z_max.
-
-Host-calorie table from those JSON files (no new run): after t_held=754, sweat+wound
-is at least 93.34% of host. Peak bite share 5.74% at t=4,644. At t=2,500 bite is
-2.31% of host with p_biter=0.936. At t=10,000 bite is 0.15% of host. p_biter is a
-threshold on a side channel. Bite is not a meal. No ramp. This tree is finished.
-Halt.
+A later intact-skin engine is a new repo with a different default meal, not an
+arm on this tree.
 
 ## Origin sentence (locked)
 
@@ -40,6 +33,7 @@ n_floor=8, n_ceiling=1200, phi_max=0.25, z_max=3.0, min_accepted_pairs=8,
 cap-on-at recover.
 
 Do not raise bite_weight after a fail.
+Do not restamp origin or 10k JSON.
 Do not pin GraphForge.
 Do not patch vial_sanguis.
 

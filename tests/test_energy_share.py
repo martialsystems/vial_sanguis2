@@ -88,15 +88,15 @@ def test_readme_has_share_table() -> None:
         "0.15",
         "96.74",
         "98.88",
-        "Bite is not a meal",
-        "No ramp",
-        "This tree is finished",
+        "Vampire-as-bite fails as a 3-seed claim and as a meal share.",
+        "4946ab5",
         "usable_blood",
+        "intact-skin engine is a new repo",
     ):
         assert needle in text, needle
     agents = (REPO / "AGENTS.md").read_text(encoding="utf-8")
     long_arm = (REPO / "LONG_ARM.md").read_text(encoding="utf-8")
-    assert "Bite is not a meal" in agents
-    assert "This tree is finished" in agents
-    assert "Bite is not a meal" in long_arm
-    assert "This tree is finished" in long_arm
+    assert "4946ab5" in agents
+    assert "Next legal node: none" in agents
+    assert "4946ab5" in long_arm
+    assert "next legal node: none" in long_arm

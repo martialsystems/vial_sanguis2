@@ -4,6 +4,14 @@ MIT. Closed-form NumPy generation engine. Not a fork of vial_sanguis.
 
 Question: under an explicit diet ladder and an allowed population crash, does a Drosophila-like sponging labellum evolve prestomal-tooth rasping and a costly shallow bite, and can that kit hold with F off 1 if kinship cap waits until after recovery and falls back to random pairing instead of vetoing every pair?
 
+The finding is the README lead. Science lock `4946ab5`. That is the end of this tree. Next legal node: none.
+
+Do not pin GraphForge. Do not reuse vialforge. VBD is the finish gate.
+Do not raise bite_weight. Do not average seed 3 with seeds 1 and 2.
+Do not tighten fallback so seed 1 counts as cap-on.
+Do not run a ramp. Do not restamp origin or 10k JSON.
+A later intact-skin engine is a new repo with a different default meal, not an arm here.
+
 ## Five laws
 
 1. Closed vial. No immigration, no restock.
@@ -11,14 +19,6 @@ Question: under an explicit diet ladder and an allowed population crash, does a 
 3. Census may fall. Never invent adults. Cap fallback is random pairing, not restock.
 4. Diet ladder required. Tears, sweat, wound, bite. Origin arm does not step exudate to zero.
 5. Mouthpart path is prestomal-tooth rasp. No mandibles. No mosquito stylets. digest and heme_safe are their own QTLs.
-
-Do not pin GraphForge. Do not reuse vialforge. VBD is the finish gate.
-Do not raise bite_weight after a cliff. Do not average a living biter seed with an extinct seed.
-Do not call F=1 a bug. Origin vampire checklist failed as a 3-seed claim. Do not average seed 3 with seeds 1 and 2.
-Origin 3-seed 10k stays closed. Seed-3 persistence 10k finished: F@10k=0.228, cap arm, exudate still the meal. Not a vampire pass.
-Host calories on seed 3: after hold, sweat+wound is at least 93.34% of host. Peak bite share 5.74%. Bite is not a meal. No ramp. This tree is finished.
-Do not tighten fallback so seed 1 counts as cap-on. Do not raise bite_weight so bite catches sweat.
-LONG_ARM.md state is halt. Next legal node is none.
 
 Frozen diet: t_starve=5, k_tears=40, bite_weight=1.0, c_pierce=0.05,
 c_digest=0.40, c_heme=0.40, c_heme_in=0.30, beta_heme=2.0,
