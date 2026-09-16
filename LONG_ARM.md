@@ -14,7 +14,13 @@ with the other two. Origin 10k stays closed. Bridge-ramp stays closed.
 
 Seed-3 persistence 10k finished. Same frozen origin knobs. Cap arm (fallback gens=1).
 F@10k=0.228. Last p_biter=0.066. Sweat 4.591 and wound 3.410 beat bite 0.013.
-Pierce went negative. Saliva still negative. Rasp still at z_max. Halt.
+Pierce went negative. Saliva still negative. Rasp still at z_max.
+
+Host-calorie table from those JSON files (no new run): after t_held=754, sweat+wound
+is at least 93.34% of host. Peak bite share 5.74% at t=4,644. At t=2,500 bite is
+2.31% of host with p_biter=0.936. At t=10,000 bite is 0.15% of host. p_biter is a
+threshold on a side channel. Bite is not a meal. No ramp. This tree is finished.
+Halt.
 
 ## Origin sentence (locked)
 

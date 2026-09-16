@@ -41,7 +41,22 @@ On the one line that held a kit at F about 0.23, does that kit persist to 10k, a
 
 At t=10,000: sweat 4.591, wound 3.410, tears 0.076, bite 0.013. Bite did not catch sweat or wound. Exudate stayed the meal. Saliva -1.096. Rasp 2.926 under `z_max=3.0`. Pierce -0.150 (it was 0.457 at t=2,500). This is persistence of F off 1 on a cap arm, with the shortcut still the economy. It is not a vampire-checklist pass.
 
-JSON: `logs/knn_delayed_10000_s3.json` (local). Halt. No bridge-ramp. Do not raise `bite_weight`.
+JSON: `logs/knn_delayed_10000_s3.json` (local). Origin JSON: `logs/knn_delayed_2500_s3.json`. Do not restamp either.
+
+## Seed 3 host calories
+
+Copied from those two JSON files. Host calories: tears + sweat + usable_blood. Wound and bite split usable_blood in proportion to the logged channel means (`bite_weight=1`). No new run.
+
+| t | p_biter | F | tears % | sweat % | wound % | bite % | sweat+wound % |
+|--:|--------:|--:|--------:|--------:|--------:|-------:|--------------:|
+| 754 hold | 0.058 | 0.236 | 1.32 | 52.20 | 45.42 | 1.06 | 97.62 |
+| 2,500 | 0.936 | 0.236 | 0.95 | 57.25 | 39.49 | 2.31 | 96.74 |
+| 4,644 peak bite | 1.000 | 0.223 | 0.91 | 55.08 | 38.26 | 5.74 | 93.34 |
+| 10,000 | 0.066 | 0.228 | 0.97 | 58.32 | 40.57 | 0.15 | 98.88 |
+
+After t_held=754, sweat+wound is at least 93.34% of host. Peak bite share is 5.74% (t=4,644, p_biter=1). At t=2,500, p_biter=0.936 and bite is 2.31% of host. At t=10,000, bite is 0.15% of host. p_biter is a threshold on a side channel. Bite is not a meal. No ramp. This tree is finished.
+
+Halt. No bridge-ramp. Do not raise `bite_weight`.
 
 ## How to run
 
@@ -65,7 +80,7 @@ python3.12 -m venv .venv
 |------|------|
 | `src/vial_sanguis2/` | config, genome, diet, fitness, mating, inheritance, population, metrics, cli |
 | `AGENTS.md` | Five laws. VBD gate. No GraphForge. |
-| `LONG_ARM.md` | origin locked; seed-3 persistence 10k |
+| `LONG_ARM.md` | origin locked; seed-3 persistence 10k; host-calorie halt |
 | `tests/` | five laws, bridge does not step to zero, cap fallback, origin locks |
 | `logs/knn_delayed_2500_s{1,2,3}.json` | origin k-NN locks (local). Seed 1 is fallback-dominated. |
 | `logs/random_2500_s{1,2,3}.json` | origin random locks (local) |

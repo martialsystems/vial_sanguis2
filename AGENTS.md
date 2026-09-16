@@ -16,6 +16,7 @@ Do not pin GraphForge. Do not reuse vialforge. VBD is the finish gate.
 Do not raise bite_weight after a cliff. Do not average a living biter seed with an extinct seed.
 Do not call F=1 a bug. Origin vampire checklist failed as a 3-seed claim. Do not average seed 3 with seeds 1 and 2.
 Origin 3-seed 10k stays closed. Seed-3 persistence 10k finished: F@10k=0.228, cap arm, exudate still the meal. Not a vampire pass.
+Host calories on seed 3: after hold, sweat+wound is at least 93.34% of host. Peak bite share 5.74%. Bite is not a meal. No ramp. This tree is finished.
 Do not tighten fallback so seed 1 counts as cap-on. Do not raise bite_weight so bite catches sweat.
 LONG_ARM.md state is halt. Next legal node is none.
 
