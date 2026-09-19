@@ -55,3 +55,14 @@ def test_readme() -> None:
     assert "next legal node: none" in long_arm
     assert (REPO / "LICENSE").is_file()
     assert "matplotlib" not in (REPO / "pyproject.toml").read_text(encoding="utf-8")
+
+
+def test_methods_card_and_citation() -> None:
+    methods = (REPO / "METHODS.yaml").read_text(encoding="utf-8")
+    assert "science_lock:" in methods
+    assert "pre_specified: false" in methods
+    assert "—" not in methods
+    assert "What it is not" not in methods
+    cite = (REPO / "CITATION.cff").read_text(encoding="utf-8")
+    assert "cff-version: 1.2.0" in cite
+    assert "Martial Systems LLC" in cite

@@ -1,0 +1,16 @@
+question: Under an explicit diet ladder and an allowed population crash, does a Drosophila-like sponging labellum evolve prestomal-tooth rasping and a costly shallow bite, and can that kit hold with F off 1 if kinship cap waits until after recovery and falls back to random pairing instead of vetoing every pair?
+falsifier: bite share majority of host calories with F off 1 on at least two of three seeds
+object: unconstrained evolutionary toy
+status: Closed
+system: delayed cap; pair fallback; z_max=3.0; N=1000
+data_version: closed-form QTL vial; templates not the stepper
+neuron_table: named types only
+dynamics: closed-form QTL; delayed kinship cap
+rng: numpy.random.default_rng(seed)
+n_seeds: 3
+n_meaning: 3-seed claim; 1 of 3 held a kit at F about 0.23
+locked_metric: vampire-as-bite fails as a 3-seed claim and as a meal share; science 4946ab5; git 7e32830
+pre_specified: false
+science_lock: 7e32830
+parent_sha: "b7347ce"
+reduction: the fly that passes p_biter still lives on sweat and wound

@@ -50,6 +50,20 @@ Copied from those two JSON files. Host calories: tears + sweat + usable_blood. W
 
 After t_held=754, sweat+wound is at least 93.34% of host. Peak bite share is 5.74% (t=4,644, p_biter=1). `p_biter` counts flies with non-zero `energy_bite` on an exudate meal.
 
+## Methods card
+
+Copied from `METHODS.yaml`.
+
+| Field | Value |
+|-------|-------|
+| Object | unconstrained evolutionary toy |
+| Status | Closed |
+| Falsifier | bite share majority of host calories with F off 1 on at least two of three seeds |
+| n / seeds | 3-seed claim; 1 of 3 held a kit at F about 0.23 |
+| Science lock | `7e32830` |
+| Pre-specified | false |
+
+
 ## How to run
 
 ```text
@@ -71,6 +85,8 @@ python3.12 -m venv .venv
 | Path | Role |
 |------|------|
 | `src/vial_sanguis2/` | config, genome, diet, fitness, mating, inheritance, population, metrics, cli |
+| `METHODS.yaml` | Methods card |
+| `CITATION.cff` | Citation file; DOI empty until a deposit exists |
 | `AGENTS.md` | Five laws. VBD gate. No GraphForge. Closed at `4946ab5`. |
 | `LONG_ARM.md` | next legal node: none |
 | `tests/` | five laws, cap fallback, origin locks, host-calorie shares |
